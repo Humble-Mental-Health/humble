@@ -1,5 +1,5 @@
 
-@media screen and (min-width: 960px){
+
   .navbarDesktopGreen {
   
     background-color: #13524a;
@@ -86,6 +86,16 @@
     align-self: center;
     justify-self: center;
   }
+@media screen and (max-width:600px){
+  .navbarDesktop__main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbarDesktop__logo{
+    
+    width: 30%;
+margin-left:2em;  }
 }
 
 

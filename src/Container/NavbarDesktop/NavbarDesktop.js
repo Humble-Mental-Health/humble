@@ -75,6 +75,8 @@ const NavbarDesktop = () => {
                     {/* <img src={colorChange ? logoGreen : logo} alt='logo' /> */}
                     <img src={logo} alt='logo' />
                 </div>
+
+                
                 <li className='navbarDesktop__home'>
                     <NavLink to='/'><b>Home</b></NavLink>
                     </li>
@@ -90,6 +92,7 @@ const NavbarDesktop = () => {
                     <li className='navbarDesktop__contact'>
                         <NavLink to='/contactus'><b>Contact</b></NavLink>
                     </li>
+                    </div>
 
                     {/* <li className='signin'>
                         <NavLink to='/signin'><b>Sign In</b></NavLink>
@@ -97,7 +100,7 @@ const NavbarDesktop = () => {
                     <li className='signout'>
                         <NavLink to='/signout'><b>Sign out</b></NavLink>
                     </li> */}
-            </div>
+            
         </div>
     )
 }

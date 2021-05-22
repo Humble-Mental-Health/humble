@@ -2,6 +2,8 @@
     background-color: #13524a;
     padding: 20px 20px;
     margin-bottom: 1.5rem;
+    width:100%;
+    margin: 0 auto;
 }
 
 /* .banner__grid {

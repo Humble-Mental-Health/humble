@@ -1,3 +1,10 @@
+
+
+
+
+@media  screen and (min-width:960px) {
+  
+
 .navbarGreen {
   
   background-color: #13524a;
@@ -93,49 +100,8 @@
   grid-row: 2/3;
   grid-column: 1/7
 }
-
-.navbar__links > .navbar__home {
-  /* display: none; */
-  /* padding-top: 40px;
-  padding-bottom: 10px; */
-  /* grid-column: 1/7; */
-  grid-row: 1/2;
-  align-self: center;
-  justify-self: center;
+.nav-item{
+  position: relative;
+  background-color: green;
 }
-
-.navbar__links > .navbar__aboutus {
-  /* display: none; */
-  /* grid-column: 1/7; */
-  /* padding-bottom: 10px; */
-  grid-row: 2/3;
-  align-self: center;
-  justify-self: center;
-}
-
-.navbar__links > .navbar__services {
-  /* display: none; */
-  /* grid-column: 1/7; */
-  /* padding-bottom: 10px; */
-  grid-row: 3/4;
-  align-self: center;
-  justify-self: center;
-}
-
-.navbar__links > .navbar__team {
-  /* display: none; */
-  /* grid-column: 1/7; */
-  /* padding-bottom: 10px; */
-  grid-row: 4/5;
-  align-self: center;
-  justify-self: center;
-}
-
-.navbar__links > .navbar__contact {
-  /* display: none; */
-  /* grid-column: 1/7; */
-  /* padding-bottom: 10px; */
-  grid-row: 5/6;
-  align-self: center;
-  justify-self: center;
 }

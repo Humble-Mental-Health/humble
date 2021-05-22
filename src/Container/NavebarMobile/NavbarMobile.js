@@ -59,19 +59,19 @@ import "./NavbarMobile.css";
         if (sidebar)
             return(
                 <div className='navbar__links' >
-                    <li className='navbar__home'>
+                    <li className='nav-item'>
                     <NavLink to='/'><b>Home</b></NavLink>
                     </li>
-                    <li className='navbar__aboutus'>
+                    <li className='nav-item'>
                         <NavLink to='/aboutus'><b>About</b></NavLink>
                     </li>
-                    <li className='navbar__services'>
+                    <li className='nav-item'>
                         <NavLink to='/Services'><b>Services</b></NavLink>
                     </li>
-                    <li className='navbar__team'>
+                    <li className='nav-item'>
                         <NavLink to='/team'><b>Team</b></NavLink>
                     </li>
-                    <li className='navbar__contact'>
+                    <li className='nav-item'>
                         <NavLink to='/contactus'><b>Contact</b></NavLink>
                     </li>
                 </div>
