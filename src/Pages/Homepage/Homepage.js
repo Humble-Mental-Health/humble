@@ -18,7 +18,6 @@ function HomePage() {
 
   return (
     <div className="homepage">
-        <NavbarDesktop/>
         <Banner/>
         <AboutUs/>
         <Services/>

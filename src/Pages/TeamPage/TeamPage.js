@@ -5,22 +5,22 @@ import Team from '../../Container/Team/Team';
 import Footer from '../../Container/Footer/Footer'
 
 function TeamPage() {
-    function detectMob() {
-        return ( ( window.innerWidth <= 600 ) && ( window.innerHeight <= 800 ) );
-      }
+    // function detectMob() {
+    //     return ( ( window.innerWidth <= 600 ) && ( window.innerHeight <= 800 ) );
+    //   }
     
-      console.log(detectMob())
+    //   console.log(detectMob())
     
-      function navbar() {
-        if (detectMob())
-          return <NavbarMobile/>
-        else
-          return <NavbarDesktop/>
-      }
+    //   function navbar() {
+    //     if (detectMob())
+    //       return <NavbarMobile/>
+    //     else
+    //       return <NavbarDesktop/>
+    //   }
 
     return (
         <div>
-            {navbar()}
+            {/* {navbar()} */}
             <Team/>
             <Footer/>
         </div>

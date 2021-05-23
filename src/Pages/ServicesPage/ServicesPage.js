@@ -17,23 +17,23 @@ import Footer from '../../Container/Footer/Footer'
 
 function ServicesPage() {
 
-    function detectMob() {
-        return ( ( window.innerWidth <= 600 ) && ( window.innerHeight <= 800 ) );
-      }
+    // function detectMob() {
+    //     return ( ( window.innerWidth <= 600 ) && ( window.innerHeight <= 800 ) );
+    //   }
     
-      console.log(detectMob())
+    //   console.log(detectMob())
     
-      function navbar() {
-        if (detectMob())
-          return <NavbarMobile/>
-        else
-          return <NavbarDesktop/>
-      }
+    //   function navbar() {
+    //     if (detectMob())
+    //       return <NavbarMobile/>
+    //     else
+    //       return <NavbarDesktop/>
+    //   }
 
     return (
         <div className='servicesPage'>
             {/* <Navbar isVisible='True' colour='Green'/> */}
-            {navbar()}
+            {/* {navbar()} */}
             <Hero />
             <Psychological />
             <Yoga />

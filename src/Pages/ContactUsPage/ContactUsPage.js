@@ -5,21 +5,21 @@ import NavbarMobile from '../../Container/NavebarMobile/NavbarMobile';
 import Footer from '../../Container/Footer/Footer'
 
 function ContactUsPage() {
-    function detectMob() {
-        return ( ( window.innerWidth <= 600 ) && ( window.innerHeight <= 800 ) );
-    }
+    // function detectMob() {
+    //     return ( ( window.innerWidth <= 600 ) && ( window.innerHeight <= 800 ) );
+    // }
 
-    console.log(detectMob())
+    // console.log(detectMob())
 
-    function navbar() {
-    if (detectMob())
-        return <NavbarMobile/>
-    else
-        return <NavbarDesktop/>
-    }
+    // function navbar() {
+    // if (detectMob())
+    //     return <NavbarMobile/>
+    // else
+    //     return <NavbarDesktop/>
+    // }
     return (
         <div>
-            {navbar()}
+            {/* {navbar()} */}
             <ContactUs/>
             <Footer/>
         </div>

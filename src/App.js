@@ -8,11 +8,13 @@ import ServicesPage from './Pages/ServicesPage/ServicesPage';
 // import SignOut from './Container/Auth/SignOut/SignOut';
 import ContactUsPage from './Pages/ContactUsPage/ContactUsPage';
 import TeamPage from './Pages/TeamPage/TeamPage';
+import Nav from './Components/Nav/Nav';
 
 function App() {
   return (
     <div className="app">
       <BrowserRouter>
+        <Nav />
         <Switch>
         <Route exact path="/" component ={HomePage}/>
         <Route exact path="/aboutus" component ={AboutUsPage}/>
