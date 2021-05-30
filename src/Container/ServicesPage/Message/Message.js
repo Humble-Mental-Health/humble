@@ -11,7 +11,7 @@ function Message() {
                 <div className="message__textContainer">
                     <h1 className="message__heading">Daily affirmation texts 
                         on WhatsApp/SMS</h1>
-                    <p className="message__para">With the subscription program you get the option to get daily customised affirmative texts to start your morning with a positive note. We are there to motivate you always. </p>
+                    <p className="message__para">Incorporating Positive Affirmations into your Mindfulness Practice. ... Positive affirmations are thoughts that make us feel good, peaceful, happy, empowered. They are thoughts that we want to believe or are learning to believe. Our destructive thoughts did not start out with power</p>
                     <button className="message__button">Start Now</button>
                 </div>
             </div>            

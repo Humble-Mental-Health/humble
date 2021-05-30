@@ -16,7 +16,7 @@ const Nav = () => {
                 <NavLink style={{textDecoration: 'none'}} to='/'><li>Home</li></NavLink>
                 <NavLink style={{textDecoration: 'none'}} to='/aboutus'><li>About</li></NavLink>
                 <NavLink style={{textDecoration: 'none'}} to='/services'><li>Services</li></NavLink>
-                <NavLink style={{textDecoration: 'none'}} to='/team'><li>Team</li></NavLink>
+                <NavLink style={{textDecoration: 'none'}} to='/founders'><li>Founders</li></NavLink>
                 <NavLink style={{textDecoration: 'none'}} to='/contactus'><li>Contact</li></NavLink>
             </ul>
                 {

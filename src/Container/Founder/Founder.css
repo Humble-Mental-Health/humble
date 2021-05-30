@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+.founder {
+    margin: 4rem auto;
+}
+
+.founder__head {
+    font-size: 5rem;
+}
+
+.founder__head > span {
+    background-size:  100% 15%;
+    background-repeat: repeat-x;
+    background-position: left 0% bottom 10%;
+}    
+
+.tapered {
+    background-image: linear-gradient(179deg,#416d48 0%, #416d48 50%,transparent 54%, transparent 100%);
+}
+
+.founder__img {
+    width: 100%;
+}
+
+.founder__para {
+    max-width: 800px;
+    margin: 4rem auto;
+    color: #212529;
+}
+
+.founder__para > p {
+    font-size: 1.3rem;
+    line-height: 2.2rem;
+}
+
+.founder__head {
+    font-family: Dancing Script;
+    text-align: center;
+    padding-bottom: 4rem;
+}
+
+.founder__para > p > .founders__name {
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding: 5px;
+    font-family: Dancing Script;
+    text-decoration: underline;
+    text-decoration-color: #416d48;
+    text-decoration-style: wavy;
+    text-underline-offset: 4px;
+}
+
+.founders__startup {
+    font-weight: 700;
+}
+
+@media only screen and (max-width:800px){
+    .founder__head {
+        font-size: 3.5rem;
+    }
+
+    .founder__para {
+        max-width: 500px;
+        margin: 4rem auto;
+        color: #212529;
+    }
+}
+
+@media only screen and (max-width:600px){ 
+    .founder__head {
+        font-size: 2.5rem;
+    }
+
+    .founder__para {
+        max-width: 300px;
+        margin: 4rem auto;
+        color: #212529;
+    }
+}

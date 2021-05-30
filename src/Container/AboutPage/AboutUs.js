@@ -32,7 +32,7 @@ function AboutUs() {
                     THE DISCOVERERS, <br/>
                     THE ORIGINAL THINKERS.</b></p>
                 </div> */}
-                <p style={{fontSize:"18px", fontWeight:500, marginTop:"30px", marginBottom:"30px"}}>We @Humble_India believe in living for today and tomorrow!</p>
+                <p style={{fontSize:"18px", fontWeight:500, marginTop:"30px", marginBottom:"30px"}}>We @thehumbleindia believe in living for today and tomorrow!</p>
             </div>
         </div>
     )

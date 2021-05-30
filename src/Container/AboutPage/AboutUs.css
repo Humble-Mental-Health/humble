@@ -10,19 +10,16 @@ margin: 0 auto;
 }
 
 
-
-
-
-
-
-
 @media only screen and (max-width:892px){
  
     .aboutUs{
         width:80%;
-       margin:0 auto;
+        margin:0 auto;
         text-transform: uppercase;
         font-family: 'Montserrat',sans-serif;
+    }
+    .new{
+        font-size: 2.5rem;
     }
 }
 
@@ -36,7 +33,7 @@ margin: 0 auto;
         font-family: 'Montserrat',sans-serif;
     }
     .new{
-        font-size: 3rem;
+        font-size: 2rem;
     }
 }
 
@@ -49,7 +46,7 @@ margin: 0 auto;
         font-family: 'Montserrat',sans-serif;
     }
     .new{
-        font-size: 2.5rem;
+        font-size: 1.5rem;
     }
   
 }

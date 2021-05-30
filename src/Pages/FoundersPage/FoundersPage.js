@@ -1,11 +1,13 @@
 import React from 'react'
-import Team from '../../Container/Team/Team';
+import Founder from '../../Container/Founder/Founder'
 import Footer from '../../Container/Footer/Footer'
 
 function TeamPage() {
     return (
         <div>
-            <Team/>
+            {/* <Team/>
+            <Footer/> */}
+            <Founder/>
             <Footer/>
         </div>
     )
