@@ -1,0 +1,20 @@
+.profile__suggested {
+    display: flex;
+    margin: 15px 0;  
+    align-items: center;
+}
+
+.profile__suggested > .content {
+    padding: 0 15px;
+}
+
+.profile__suggested > .content > h3 {
+    font-size: 13px;
+    font-weight: 800;
+    padding-bottom: 5px;
+}
+
+.profile__suggested > .content > p {
+    line-height: 1.5;
+    font-size: 10px;
+}

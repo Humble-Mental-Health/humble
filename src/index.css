@@ -15,3 +15,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+@media screen and (min-width: 620px){
+  body{
+    font-size: 15px;
+  }
+}
+
+/* large tablet & laptop styles */
+@media screen and (min-width: 960px){
+
+  body{
+    font-size: 18px;
+  }
+  
+}
+  
+  /* desktop styles */
+@media screen and (min-width: 1200px){
+  
+  body{
+    font-size: 20px;
+  }
+  
+}

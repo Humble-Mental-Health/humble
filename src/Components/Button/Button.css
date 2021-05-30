@@ -1,72 +1,29 @@
-.btn,
-.btn:link,
-.btn:visited {
-  text-transform: uppercase;
-  text-decoration: none;
-  display: inline-block;
-  padding: 15px 50px;
-  border-radius: 100px;
-  transition: all 0.2s;
-  position: relative;
-  animation: moveUp 0.5s ease-out 0.75s;
-  animation-fill-mode: backwards;
-  border: none;
-  cursor: pointer;
-  margin-left: auto;
-  margin-top: 15px;
-}
-.btn-white {
-  background-color: #fff;
-  color: #186e63;
-  font-size: 22px;
-}
-.btn-white::after {
-  background-color: #fff;
-}
-
-.btn:hover {
-  transform: translateY(-0.3rem);
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
-}
-.btn:hover::after {
-  transform: scaleX(1.4) scaleY(1.6);
-  opacity: 0;
-}
-.btn:active,
-.btnfocus {
-  outline: none;
-  transform: translateY(-0.1rem);
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
-}
-.btn::after {
-  content: "";
-  display: inline-block;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  border-radius: 10rem;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  transition: all 0.4s;
-}
-
-@media only screen and (max-width: 450px) {
-  .btn,
-  .btn:link,
-  .btn:visited {
-    text-transform: uppercase;
-    text-decoration: none;
-    display: inline-block;
-    padding: 10px 40px;
-    border-radius: 100px;
-    transition: all 0.2s;
-    position: relative;
-    animation: moveUp 0.5s ease-out 0.75s;
-    animation-fill-mode: backwards;
-    border: none;
+button {
+    background-color: white;
+    border: 0;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 1.3rem;
     cursor: pointer;
-    margin-left: auto;
-    margin-top: 5px;
-  }
+    font-weight: bold;
+    color: #13524a;
+    transition: all 0.3s
+}
+button:hover{
+    transform: translateY(-5px);
+}
+button:active{
+    transform: translateY(0px);
+}
+@media screen and (min-width: 960px){
+    button {
+        background-color: white;
+        border: 0;
+        padding: 15px 25px;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        cursor: pointer;
+        font-weight: bold;
+        color: #13524a;
+    }
 }

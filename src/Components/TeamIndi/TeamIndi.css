@@ -1,0 +1,38 @@
+.teamindi {
+    text-align: center;	
+}
+.teamindi > img{
+    width: 100%;
+    padding-bottom: 5px 0;
+}
+
+.teamindi > h1 {
+    padding: 5px 0;
+    font-size: 1.8rem;
+    font-weight: 900;
+    /* text-align: center; */
+}
+
+.teamindi > p {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    /* text-align: center; */
+}
+
+.teamindi .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: #13524ad2;
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.teamindi .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}

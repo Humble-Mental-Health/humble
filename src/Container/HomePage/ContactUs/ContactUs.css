@@ -1,0 +1,127 @@
+.contactUs {
+    padding: 20px 40px;
+    margin: 2rem 0;
+}
+
+.contactUs__left {
+    text-align: center;
+    margin-bottom: 1rem;
+    
+}
+
+.contactUs__left > h1 p {
+    color: rgb(94, 94, 94);
+    padding-bottom: 25px;
+}
+
+.contactUs__icon {
+    display: flex;
+    justify-content: center;
+    color: rgb(94, 94, 94);
+    align-items: center;
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+}
+
+.contactUs__icon h6{
+    padding-left: 10px;
+}
+
+
+.contactUs__right {
+    background-color: #13524a;
+    padding: 20px 20px;
+    border-radius: 20px;
+} 
+
+.contactUs__right > form > input {
+    width: 100%;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: 0;
+}
+
+.contactUs__right > form > h4 {
+    padding: 15px 0;
+    color: White;
+}
+
+.contactUs__right > form > textarea {
+    width: 100%;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: 0;
+    height: 200px;
+}
+
+.contactUs__right > form > input:focus {
+    color: #13524a;
+    outline: 2px solid whitesmoke; 
+    /* border-radius: 5px; */
+}
+
+.contactUs__right > .form > button {
+    font-family: 'Lato';
+    padding: 8px 25px;
+    border: none;
+    background-color: white;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 3px;
+    color: #13524a;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    margin-top: 10px;
+}
+.contactUs__right input:focus, textarea:focus{
+    outline: none !important;
+}
+
+@media screen and (min-width: 960px){
+    .contactUs {
+        max-width: 900px;
+        margin: 4rem auto;
+        display: flex;
+        padding: 20px 20px;
+    }
+
+     
+    .contactUs__left {
+        width: 50%;
+        margin-right: 2rem;
+        text-align: left;
+        margin-bottom: 1rem;
+
+    }
+
+    .contactUs__left > p {
+        margin-bottom: 10px;
+    }
+
+    .contactUs__icon {
+        display: flex;
+        justify-content: left;
+        color: rgb(94, 94, 94);
+        align-items: center;
+        font-size: 2rem;
+        padding-bottom: 10px;
+        padding-bottom: 2rem;
+    }
+
+    .contactUs__icon h6{
+        padding-left: 1rem;
+    }
+
+    .contactUs__right{
+        width: 50%;
+        margin-left: 25px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .contactUs {
+        max-width: 1200px;
+        margin: 4rem auto;
+    }
+
+}

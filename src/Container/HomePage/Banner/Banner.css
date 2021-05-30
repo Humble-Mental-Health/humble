@@ -1,0 +1,154 @@
+.banner {
+    background-color: #13524a;
+    padding: 40px 20px;
+    margin-bottom: 1.5rem;
+    width:100%;
+    margin: 0 auto;
+    height: 80vh
+}
+
+/* .banner__grid {
+    max-width: 700px;
+    margin: 0 auto;
+} */
+
+.banner__img > img {
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.banner__social > img {
+    width: 8%;
+    cursor: pointer;
+}
+
+.banner__text > h1 {
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    padding: 2px 0;
+    font-size: 2.5rem;
+}
+
+.banner__text > p {
+    text-align: center;
+    color: white;
+    padding: 20px 10px;
+    font-size: 1.2rem;
+}
+
+.banner__text__button {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+.banner__social {
+    display: flex;
+    justify-content: center;
+}
+
+.banner__social > img {
+    padding: 10px 4px;
+    transition: all 0.3s
+}
+.banner__social img:hover{
+    transform: scale(1.2) rotate(8deg)
+}
+  
+  /* large tablet & laptop styles */
+@media screen and (min-width: 960px){
+    .banner__grid {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-auto-rows: minmax(120px, auto);
+        margin: 30px 50px;
+        
+    } 
+
+    .banner__text {
+        align-self: center;
+        grid-column: 1/6;
+        grid-row: 1/2;
+    }
+
+    .banner__img {
+        grid-column: 7/13;
+    }
+
+    .banner__text > h1 {
+        text-align: left;
+        color: white;
+        font-weight: 600;
+        padding: 2px 0;
+        font-size: 2.5rem;
+    }
+    
+    .banner__text > p {
+        text-align: left;
+        color: white;
+        padding: 20px 0;
+        font-size: 1.2rem;
+    }
+
+    .banner__text__button {
+        display: flex;
+        justify-content: left;
+        padding: 10px 0;
+    }
+    
+    .banner__social {
+        display: flex;
+        justify-content: left;
+    }
+    
+}
+
+@media screen and (min-width: 1200px){    
+
+    .banner__grid {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-auto-rows: minmax(120px, auto);
+        max-width: 1200px;
+        margin: 0 auto;
+        
+    }
+
+    .banner__text {
+        align-self: center;
+        grid-column: 1/6;
+        grid-row: 1/2;
+    }
+
+    .banner__img {
+        grid-column: 7/13;
+    }
+
+    .banner__text > h1 {
+        text-align: left;
+        color: white;
+        font-weight: 600;
+        padding: 2px 0;
+        font-size: 2.5rem;
+    }
+    
+    .banner__text > p {
+        text-align: left;
+        color: white;
+        padding: 20px 0;
+        font-size: 1.2rem;
+    }
+
+    .banner__text__button {
+        display: flex;
+        justify-content: left;
+        padding: 10px 0;
+    }
+    
+    .banner__social {
+        display: flex;
+        justify-content: left;
+    }
+    
+    
+}

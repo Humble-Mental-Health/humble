@@ -1,7 +1,7 @@
 import React from 'react'
 import './Partial.css'
 
-function Partial({icons, orientation}) {
+function Partial({icons, orientation, topic, para}) {
 
     let partial__img = '';
     if (orientation === 'left') {
@@ -16,9 +16,8 @@ function Partial({icons, orientation}) {
                 <img src={icons} alt=""/>
             </div>
             <div className={orientation}>
-                <h3>Lorem ipsum dolor sit amet</h3>
-                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-                    sed diam nonumy eirmod tempor invidunt ut labore et</p>
+                <h3>{topic}</h3>
+                <p>{para}</p>
             </div>
         </div>
     )

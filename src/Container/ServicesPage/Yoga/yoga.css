@@ -1,0 +1,148 @@
+.yoga {
+    background-color:  #fff2d9;
+}
+  
+.yoga__button {
+margin-top: 15px;
+width: 10rem;
+border-radius: 8px;
+border: 0;
+background-color: #ff6961;
+color:white;
+font-family: lato;
+font-size: 1rem;
+}
+
+.yoga__container {
+display: flex;
+flex-direction: column;
+padding: 3rem 0;
+justify-items: center;
+align-items: center;
+}
+
+.yoga__heading {
+color: rgba(36, 35, 35, 0.774);
+font-size: 1.9rem;
+font-weight: 600;
+margin: 0 3rem;
+}
+
+.yoga__para {
+font-size: 1.5  rem;
+margin: 10px 2rem;
+text-align: center;
+}
+
+
+.yoga__textContainer {
+text-align: center;
+padding-bottom: 50px;
+}
+
+.yoga__imageContainer {
+text-align: center;
+
+}
+
+.yoga__imageContainer > img {
+width: 70%;
+}
+  
+  
+@media screen and (min-width: 960px){
+.yoga__button {
+    width: 10rem;
+    border-radius: 8px;
+    border: 0;
+    background-color: #ffb347;
+    color:white;
+    font-family: lato;
+    font-size: 1rem;
+}
+
+.yoga__container {
+    max-width: 900px;  
+    padding: 5rem 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+}
+
+.yoga__heading {
+    color: rgba(36, 35, 35, 0.774);
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.yoga__para {
+    font-size: 1.5  rem;
+    margin: 10px 3rem;
+    text-align: center;
+}
+
+
+.yoga__textContainer {
+    text-align: center;
+}
+
+.yoga__imageContainer {
+    text-align: center;
+}
+
+.yoga__imageContainer > img {
+    width: 100%;
+}
+
+}
+
+@media screen and (min-width: 1200px){
+.yoga__button {
+    width: 10rem;
+    border-radius: 8px;
+    border: 0;
+    background-color: #ffb347;
+    color:white;
+    font-family: lato;
+    font-size: 1rem;
+}
+
+.yoga__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+}
+
+.yoga__heading {
+    color: rgba(36, 35, 35, 0.774);
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.yoga__para {
+    font-size: 1.5  rem;
+    margin: 10px 3rem;
+    text-align: center;
+}
+
+
+.yoga__textContainer {
+    text-align: center;
+
+}
+
+.yoga__imageContainer {
+    text-align: center;
+}
+
+.yoga__imageContainer > img {
+    width: 90%;
+}
+
+}
+

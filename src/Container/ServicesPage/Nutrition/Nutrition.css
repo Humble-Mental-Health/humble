@@ -1,0 +1,148 @@
+.nut {
+  background-color:  #b19cd9;
+}
+
+.nut__button {
+  margin-top: 15px;
+  width: 10rem;
+  border-radius: 8px;
+  border: 0;
+  background-color: #ffb347;
+  color:white;
+  font-family: lato;
+  font-size: 1rem;
+}
+
+.nut__container {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 0;
+  justify-items: center;
+  align-items: center;
+}
+
+.nut__heading {
+  color: rgba(36, 35, 35, 0.774);
+  font-size: 1.9rem;
+  font-weight: 600;
+  margin: 0 3rem;
+}
+
+.nut__para {
+  font-size: 1.5  rem;
+  margin: 10px 5rem;
+  text-align: center;
+}
+
+
+.nut__textContainer {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.nut__imageContainer {
+  text-align: center;
+  
+}
+
+.nut__imageContainer > img {
+  width: 70%;
+}
+
+
+@media screen and (min-width: 960px){
+  .nut__button {
+    width: 10rem;
+    border-radius: 8px;
+    border: 0;
+    background-color: #ffb347;
+    color:white;
+    font-family: lato;
+    font-size: 1rem;
+  }
+  
+  .nut__container {
+    max-width: 900px;  
+    padding: 5rem 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  .nut__heading {
+    color: rgba(36, 35, 35, 0.774);
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+  
+  .nut__para {
+    font-size: 1.5  rem;
+    margin: 10px 3rem;
+    text-align: center;
+  }
+  
+  
+  .nut__textContainer {
+    text-align: center;
+  }
+  
+  .nut__imageContainer {
+    text-align: center;
+  }
+  
+  .nut__imageContainer > img {
+    width: 100%;
+  }
+  
+}
+
+@media screen and (min-width: 1200px){
+  .nut__button {
+    width: 10rem;
+    border-radius: 8px;
+    border: 0;
+    background-color: #ffb347;
+    color:white;
+    font-family: lato;
+    font-size: 1rem;
+  }
+  
+  .nut__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  .nut__heading {
+    color: rgba(36, 35, 35, 0.774);
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+  
+  .nut__para {
+    font-size: 1.5  rem;
+    margin: 10px 3rem;
+    text-align: center;
+  }
+  
+  
+  .nut__textContainer {
+    text-align: center;
+
+  }
+  
+  .nut__imageContainer {
+    text-align: center;
+  }
+  
+  .nut__imageContainer > img {
+    width: 90%;
+  }
+  
+}
+

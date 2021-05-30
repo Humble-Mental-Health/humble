@@ -1,0 +1,46 @@
+.main__suggested {
+    /* width: 100%; */
+    width: 100%;
+    flex: 0.3;
+    height: fit-content;
+    cursor: pointer;
+}
+
+.main__suggested > .main__suggested > img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+.main__suggested__avatar {
+    margin: 5px 0;
+}
+
+.main__suggested__top {
+    width: 100%
+}
+
+.main__suggested__top > img {
+    width: 100%
+}
+
+
+.main__suggested__bottom > h2 {
+    margin: 5px 0;
+    font-weight: 800;
+    font-size: 1.3rem;
+}
+
+.main__suggested__bottom > h6 {
+    font-size: 1rem;
+    line-height: 1.7;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.main__suggested__bottom > p {
+    font-weight: 500;
+    margin-top: 20px;
+    font-size: 0.8rem;
+    color:gray;
+}

@@ -1,0 +1,196 @@
+@media screen and (max-width: 700px) {
+  .service__text {
+    width: 100%;
+    background-color: #186e63;
+
+    padding-bottom: 20px;
+  }
+  .service__text__heading {
+    width: 100%;
+    text-align: center;
+    padding: 30px 20px 0 20px;
+    margin-bottom: 0;
+  }
+  .service__text__heading > h1 {
+    font-size: 35px;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    color: #fff;
+  }
+  .service__text__para {
+    width: 100%;
+    margin-top: 0;
+    text-align: center;
+    padding: 30px;
+    letter-spacing: 1px;
+    line-height: 1.3;
+  }
+  .service__text__para > p {
+    font-size: 14px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    color: #fff;
+    padding-bottom: 20px;
+  }
+  .service__text__button {
+    margin: auto;
+    transform: translateX(-15px);
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .service__text {
+    width: 100%;
+    background-color: #186e63;
+    padding-bottom: 20px;
+  }
+  .service__text__heading {
+    width: 100%;
+    text-align: center;
+    padding: 30px 20px 0 20px;
+    margin-bottom: 0;
+  }
+  .service__text__heading > h1 {
+    font-size: 35px;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    color: #fff;
+  }
+  .service__text__para {
+    width: 100%;
+    margin-top: 0;
+    text-align: center;
+    padding: 30px;
+    letter-spacing: 1px;
+    line-height: 1.3;
+  }
+  .service__text__para > p {
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    color: #fff;
+    padding-bottom: 15px;
+  }
+  .service__text__button {
+    margin: auto;
+    transform: translate(-15px, 20px);
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .service__text {
+    width: 100%;
+    background-color: #186e63;
+    padding-bottom: 20px;
+  }
+  .service__text__heading {
+    width: 100%;
+    text-align: center;
+    padding: 30px 20px 0 20px;
+    margin-bottom: 0;
+  }
+  .service__text__heading > h1 {
+    font-size: 40px;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    color: #fff;
+  }
+  .service__text__para {
+    width: 100%;
+    margin-top: 0;
+    text-align: center;
+    padding: 30px;
+    letter-spacing: 1px;
+    line-height: 1.3;
+  }
+  .service__text__para > p {
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    color: #fff;
+    padding-bottom: 15px;
+  }
+  .service__text__button {
+    margin: auto;
+    transform: translate(-15px, 20px);
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .service__text {
+    width: 100%;
+    background-color: #186e63;
+    padding-bottom: 20px;
+  }
+  .service__text__heading {
+    width: 100%;
+    text-align: center;
+    padding: 30px 20px 0 20px;
+    margin-bottom: 0;
+  }
+  .service__text__heading > h1 {
+    font-size: 45px;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    color: #fff;
+  }
+  .service__text__para {
+    width: 100%;
+    margin-top: 0;
+    text-align: center;
+    padding: 30px 150px 30px 150px;
+    letter-spacing: 1px;
+    line-height: 1.3;
+  }
+  .service__text__para > p {
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    color: #fff;
+    padding-bottom: 15px;
+  }
+  .service__text__button {
+    margin: auto;
+    transform: translate(-15px, 20px);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .service__text {
+    width: 100%;
+    background-color: #186e63;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 40px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+  }
+  .service__text__heading {
+    width: 100%;
+    text-align: center;
+    padding: 30px 20px 0 20px;
+    margin-bottom: 0;
+  }
+  .service__text__heading > h1 {
+    font-size: 48px;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    color: #fff;
+  }
+  .service__text__para {
+    width: 100%;
+    margin-top: 0;
+    text-align: center;
+    padding: 30px 150px 30px 150px;
+    letter-spacing: 1px;
+    line-height: 1.3;
+    display: block;
+  }
+  .service__text__para > p {
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    color: #fff;
+  }
+}

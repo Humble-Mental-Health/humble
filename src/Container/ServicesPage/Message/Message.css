@@ -1,0 +1,148 @@
+.message {
+  background-color:  #a7c7e7;
+}
+
+.message__button {
+  width: 10rem;
+  margin-top: 15px;
+  border-radius: 8px;
+  border: 0;
+  background-color: #ffb347;
+  color:white;
+  font-family: lato;
+  font-size: 1rem;
+}
+
+.message__container {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 0;
+  justify-items: center;
+  align-items: center;
+}
+
+.message__heading {
+  color: rgba(36, 35, 35, 0.774);
+  font-size: 1.9rem;
+  font-weight: 600;
+  margin: 0 3rem;
+}
+
+.message__para {
+  font-size: 1.5  rem;
+  margin: 10px 5rem;
+  text-align: center;
+}
+
+
+.message__textContainer {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.message__imageContainer {
+  text-align: center;
+  
+}
+
+.message__imageContainer > img {
+  width: 70%;
+}
+
+
+@media screen and (min-width: 960px){
+  .message__button {
+    width: 10rem;
+    border-radius: 8px;
+    border: 0;
+    background-color: #ffb347;
+    color:white;
+    font-family: lato;
+    font-size: 1rem;
+  }
+  
+  .message__container {
+    max-width: 900px;  
+    padding: 5rem 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  .message__heading {
+    color: rgba(36, 35, 35, 0.774);
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+  
+  .message__para {
+    font-size: 1.5  rem;
+    margin: 10px 3rem;
+    text-align: center;
+  }
+  
+  
+  .message__textContainer {
+    text-align: center;
+  }
+  
+  .message__imageContainer {
+    text-align: center;
+  }
+  
+  .message__imageContainer > img {
+    width: 100%;
+  }
+  
+}
+
+@media screen and (min-width: 1200px){
+  .message__button {
+    width: 10rem;
+    border-radius: 8px;
+    border: 0;
+    background-color: #ffb347;
+    color:white;
+    font-family: lato;
+    font-size: 1rem;
+  }
+  
+  .message__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  .message__heading {
+    color: rgba(36, 35, 35, 0.774);
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+  
+  .message__para {
+    font-size: 1.5  rem;
+    margin: 10px 3rem;
+    text-align: center;
+  }
+  
+  
+  .message__textContainer {
+    text-align: center;
+  }
+  
+  .message__imageContainer {
+    text-align: center;
+    width: 100%;
+  }
+  
+  .message__imageContainer > img {
+    width: 90%;
+  }
+  
+}
+

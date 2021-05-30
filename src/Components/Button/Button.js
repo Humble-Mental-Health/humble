@@ -1,10 +1,10 @@
 import React from 'react'
-import './Button.css';
+import './Button.css'
 
-function Button(props) {
+function Button({title}) {
     return (
         <div>
-            <a href="#popup" class="btn btn-white">{props.name}</a>
+            <button>{title}</button>
         </div>
     )
 }

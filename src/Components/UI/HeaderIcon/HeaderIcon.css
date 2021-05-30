@@ -1,0 +1,27 @@
+.Icon {
+    margin-right: 20px;
+    cursor: pointer;
+    color: gray;
+    display: flex;
+    align-items: center;
+}
+
+
+.Icon:hover {
+    color: black;
+}
+
+.header_icon{
+    object-fit: contain;
+    height: 25px !important;
+    width: 25px !important;
+}
+
+.Icon > .header__title {
+    color: black;
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'lato', sans-serif;
+} 
+
