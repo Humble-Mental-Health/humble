@@ -7,8 +7,19 @@ button {
     cursor: pointer;
     font-weight: bold;
     color: #13524a;
+<<<<<<< HEAD
 }
 
+=======
+    transition: all 0.3s
+}
+button:hover{
+    transform: translateY(-5px);
+}
+button:active{
+    transform: translateY(0px);
+}
+>>>>>>> Krishna
 @media screen and (min-width: 960px){
     button {
         background-color: white;

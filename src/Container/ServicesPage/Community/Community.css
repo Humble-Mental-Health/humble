@@ -51,6 +51,10 @@
 
 .com {
   background-color:  #92a0dd;
+<<<<<<< HEAD
+=======
+  min-height: 100vh;
+>>>>>>> Krishna
 }
 
 .com__button {
@@ -76,11 +80,19 @@
   font-size: 1.9rem;
   font-weight: 600;
   margin: 0 3rem;
+<<<<<<< HEAD
+=======
+  margin-bottom: 30px;
+>>>>>>> Krishna
 }
 
 .com__para {
   font-size: 1.5  rem;
   margin: 10px 5rem;
+<<<<<<< HEAD
+=======
+  margin-bottom: 30px !important;
+>>>>>>> Krishna
   text-align: center;
 }
 
@@ -192,7 +204,10 @@
   }
   
   .com__imageContainer > img {
+<<<<<<< HEAD
     background-image: ;
+=======
+>>>>>>> Krishna
     width: 90%;
   }
   

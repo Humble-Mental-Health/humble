@@ -6,16 +6,30 @@ import facebook from '../../../assets/facebook.png'
 import instagram from '../../../assets/instagram.png'
 import linkedin from '../../../assets/linkedin.png'
 import twitter from '../../../assets/twitter.png'
+<<<<<<< HEAD
 
+=======
+import Fade from 'react-reveal/Fade';
+import Zoom from 'react-reveal/Zoom';
+>>>>>>> Krishna
 
 function Banner() {
     return (
         <div className='banner'>
             <div className="banner__grid">
+<<<<<<< HEAD
                 <div className="banner__img">
                     <img src={banner} alt=""/>
                 </div>
 
+=======
+                <Fade bottom delay={1000} distance='100px'>
+                    <div className="banner__img">
+                        <img src={banner} alt=""/>
+                    </div>
+                </Fade>
+                <Zoom delay={1500}>
+>>>>>>> Krishna
                 <div className="banner__text">
                     <h1>REJUVENATE</h1>
                     <h1>REVITALISE</h1>
@@ -33,6 +47,10 @@ function Banner() {
                         <img src={twitter} alt=""/>
                     </div>
                 </div>
+<<<<<<< HEAD
+=======
+                </Zoom>
+>>>>>>> Krishna
             </div>
            
         </div>

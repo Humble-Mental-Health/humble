@@ -5,13 +5,18 @@
     overflow: hidden;
     font-family: 'lato';
 }
+<<<<<<< HEAD
 .btn, .btn:active, .btn:visited{
+=======
+/* .btn, .btn:active, .btn:visited{
+>>>>>>> Krishna
     text-decoration: none;
     color: white;
     padding: 12px 50px;
     border-radius: 5px;
     font-size: 20px;
     cursor: pointer;
+<<<<<<< HEAD
 }
 .btn-green:hover{
     background-color:rgb(56, 85, 82);
@@ -19,11 +24,34 @@
 .btn-green{
     background-color: rgb(77, 117, 113);
     transition: all 0.5s;
+=======
+} */
+.btn-start{
+    background-color: #13524a;
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-decoration: none;
+    display: inline-block;
+}
+.btn-start:hover{
+    transform: translateY(-5px);
+}
+.btn-start:active{
+    transform: translateY(0);
+>>>>>>> Krishna
 }
 .psycho-text{
     width: 100%;
     text-align: center;
+<<<<<<< HEAD
     margin-top: 100px;
+=======
+    margin-top: 70px;
+>>>>>>> Krishna
 }
 .psycho-paraContainer{
     width: 550px;

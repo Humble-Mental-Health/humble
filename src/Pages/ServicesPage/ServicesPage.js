@@ -10,11 +10,25 @@ import './ServicesPage.css'
 import Hero from '../../Container/ServicesPage/Hero/hero'
 import Psychological from '../../Container/ServicesPage/Psychological/psychological'
 import Yoga from '../../Container/ServicesPage/Yoga/yoga'
+<<<<<<< HEAD
 import Footer from '../../Container/Footer/Footer'
 
 function ServicesPage() {
     return (
         <div className='servicesPage'>
+=======
+import Footer from '../../Components/Footer/Footer'
+import FooterO from '../../Container/Footer/Footer'
+
+import {motion} from 'framer-motion'
+import Nav from '../../Components/Nav/Nav'
+
+function ServicesPage() {
+    return (
+        <motion.div initial={{scaleX:0}} animate={{ scaleX:1}} exit={{ scaleX:0 }} transition={{ duration: 0.5}}>
+        <div className='servicesPage'>
+            <Nav />
+>>>>>>> Krishna
             <Hero />
             <Psychological />
             <Yoga />
@@ -22,8 +36,14 @@ function ServicesPage() {
             <Message />
             <Nutrition />
             <Community />
+<<<<<<< HEAD
             <Footer/>
         </div>
+=======
+            <Footer />
+        </div>
+        </motion.div>
+>>>>>>> Krishna
     )
 }
 

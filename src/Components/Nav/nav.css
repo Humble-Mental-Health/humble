@@ -5,6 +5,12 @@
     display:flex;
     align-items: center;
     justify-content: space-around;
+<<<<<<< HEAD
+=======
+    position: fixed;
+    top: 0;
+    z-index: 9999
+>>>>>>> Krishna
 }
 .nav img{
     width: 120px;
@@ -51,7 +57,13 @@
     display: none;
     cursor: pointer;
 }
+<<<<<<< HEAD
 
+=======
+a:focus{
+    outline: none;
+}
+>>>>>>> Krishna
 @media only screen and (max-width:800px){
     .nav ul{
         width: 420px;
@@ -63,7 +75,11 @@
 
 @media only screen and (max-width:600px){
     .nav ul{
+<<<<<<< HEAD
         display: block;
+=======
+        display: inline-block;
+>>>>>>> Krishna
         background-color: #13524a;
         height: 100%;
         position: fixed;
@@ -71,9 +87,15 @@
         left: 0;
         width: 50%;
         box-shadow: 0 0 10px rgba(0,0,0,0.3);
+<<<<<<< HEAD
         transform: translateX(0px);
         padding: 30px 50px;
         transform: translateX(-500px);
+=======
+        padding: 30px 50px;
+        transform: translateX(-500px);
+        animation: none !important;
+>>>>>>> Krishna
         transition: all 0.4s ease-in;
     }
     .nav li{

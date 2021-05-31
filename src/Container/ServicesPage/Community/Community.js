@@ -1,12 +1,19 @@
 import React from 'react'
 import './Community.css'
 import CommunityImage from '../../../assets/Community-Desktop.png'
+<<<<<<< HEAD
+=======
+import Fade from 'react-reveal/Fade';
+import Zoom from 'react-reveal/Zoom';
+
+>>>>>>> Krishna
 
 function Community() {
     return (
             <div className="com">
                 <div className="com__container">
                     <div className="com__textContainer">
+<<<<<<< HEAD
                         <h1 className="com__heading">COMMUNITY FOR ALL</h1>
                         <p className="com__para">
                         We function in a very efficient way through our constantly interacting and constantly growing virtual community. Diversity of people working towards the same goal. Helping each other.
@@ -14,6 +21,23 @@ function Community() {
                         <button className="com__button">Start Now</button>
                     </div>
                     <div className="com__imageContainer"><img src={CommunityImage}/></div>
+=======
+                        <Fade top duration={1000}>
+                            <h1 className="com__heading">COMMUNITY FOR ALL</h1>
+                        </Fade>
+                        <Fade bottom duration={1000}>
+                            <p className="com__para">
+                                We function in a very efficient way through our constantly interacting and constantly growing virtual community. Diversity of people working towards the same goal. Helping each other.
+                            </p>
+                        </Fade>
+                        <Zoom duration={1000} delay={500}>
+                            <button className="com__button">Start Now</button>
+                        </Zoom>
+                    </div>
+                    <Fade bottom duration={2000} delay={1000}>
+                        <div className="com__imageContainer"><img src={CommunityImage}/></div>
+                    </Fade>
+>>>>>>> Krishna
                 </div>
             </div>  
     )

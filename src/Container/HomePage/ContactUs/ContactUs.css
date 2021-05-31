@@ -62,7 +62,11 @@
 
 .contactUs__right > .form > button {
     font-family: 'Lato';
+<<<<<<< HEAD
     padding: 8px 25Spx;
+=======
+    padding: 8px 25px;
+>>>>>>> Krishna
     border: none;
     background-color: white;
     font-weight: 500;
@@ -73,8 +77,14 @@
     transition: 0.2s ease-in-out;
     margin-top: 10px;
 }
+<<<<<<< HEAD
   
 
+=======
+.contactUs__right input:focus, textarea:focus{
+    outline: none !important;
+}
+>>>>>>> Krishna
 
 @media screen and (min-width: 960px){
     .contactUs {

@@ -1,9 +1,17 @@
 .banner {
     background-color: #13524a;
+<<<<<<< HEAD
     padding: 20px 20px;
     margin-bottom: 1.5rem;
     width:100%;
     margin: 0 auto;
+=======
+    padding: 40px 20px;
+    margin-bottom: 1.5rem;
+    width:100%;
+    margin: 0 auto;
+    min-height: 80vh;
+>>>>>>> Krishna
 }
 
 /* .banner__grid {
@@ -41,7 +49,10 @@
     justify-content: center;
     padding: 10px 0;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> Krishna
 .banner__social {
     display: flex;
     justify-content: center;
@@ -49,9 +60,17 @@
 
 .banner__social > img {
     padding: 10px 4px;
+<<<<<<< HEAD
 }
 
 
+=======
+    transition: all 0.3s
+}
+.banner__social img:hover{
+    transform: scale(1.2) rotate(8deg)
+}
+>>>>>>> Krishna
   
   /* large tablet & laptop styles */
 @media screen and (min-width: 960px){

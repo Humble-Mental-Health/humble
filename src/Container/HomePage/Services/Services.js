@@ -6,6 +6,11 @@ import { FaChalkboardTeacher } from 'react-icons/fa';
 import { FaLaptopMedical } from 'react-icons/fa';
 import { FaAssistiveListeningSystems } from 'react-icons/fa';
 import { MdPeople } from 'react-icons/md';
+<<<<<<< HEAD
+=======
+import Zoom from 'react-reveal/Zoom';
+import Flip from 'react-reveal/Flip';
+>>>>>>> Krishna
 
 const ServicesDb = [
   {
@@ -37,10 +42,25 @@ function App() {
       <div className='appmain__services'>
         <Text />
         <div className="cardbox">
+<<<<<<< HEAD
           <Card icon={ServicesDb[0].icon} title={ServicesDb[0].title} content={ServicesDb[0].content} />
           <Card icon={ServicesDb[1].icon} title={ServicesDb[1].title} content={ServicesDb[1].content} />
           <Card icon={ServicesDb[2].icon} title={ServicesDb[2].title} content={ServicesDb[2].content} />
           <Card icon={ServicesDb[3].icon} title={ServicesDb[3].title} content={ServicesDb[3].content} />
+=======
+          <Zoom duration={1000}>
+            <Card icon={ServicesDb[0].icon} title={ServicesDb[0].title} content={ServicesDb[0].content} />
+          </Zoom>
+          <Zoom duration={1000} delay={500}>
+            <Card icon={ServicesDb[1].icon} title={ServicesDb[1].title} content={ServicesDb[1].content} />
+          </Zoom>
+          <Zoom duration={1000} delay={1000}>
+            <Card icon={ServicesDb[2].icon} title={ServicesDb[2].title} content={ServicesDb[2].content} />
+          </Zoom>
+          <Zoom duration={1000} delay={1500}>
+            <Card icon={ServicesDb[3].icon} title={ServicesDb[3].title} content={ServicesDb[3].content} />
+          </Zoom>
+>>>>>>> Krishna
         </div>
       </div>
     </div>
