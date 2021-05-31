@@ -1,11 +1,18 @@
 import React from 'react'
+import Footer from '../../Components/Footer/Footer'
+import Nav from '../../Components/Nav/Nav'
 import AboutUs from '../../Container/AboutPage/AboutUs'
+import {motion} from 'framer-motion'
 
 function AboutUsPage() {
     return (
-        <div>
-            <AboutUs/>
-        </div>
+        <motion.div initial={{ scaleX:0 }} animate={{ scaleX:1 }} exit={{ scaleX:0 }} transition={{ duration: 0.5}}>
+            <div>
+                <Nav />
+                <AboutUs/>
+                <Footer />
+            </div>
+        </motion.div>
     )
 }
 
