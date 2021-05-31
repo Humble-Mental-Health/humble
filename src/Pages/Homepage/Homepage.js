@@ -5,11 +5,16 @@ import ContactUs from '../../Container/HomePage/ContactUs/ContactUs';
 import Services from '../../Container/HomePage/Services/Services';
 import Psychological from '../../Container/ServicesPage/Psychological/psychological'
 import Community from '../../Container/ServicesPage/Community/Community'
-import Footer from '../../Container/Footer/Footer';
+import Nav from '../../Components/Nav/Nav';
+import {motion} from 'framer-motion'
+import Footer from '../../Components/Footer/Footer';
+import Loading from '../../Components/Loading/Loading';
 
 function HomePage() {
   return (
     <div className="homepage">
+    <motion.div initial={{ scaleX:0 }} animate={{ scaleX:1 }} exit={{ scaleX:0 }} transition={{ duration: 0.5}}>
+        <Nav />
         <Banner/>
         <AboutUs/>
         <Services/>
@@ -18,6 +23,7 @@ function HomePage() {
         <Community/>        
         {/* <Suggested/> */}
         <Footer/>
+    </motion.div>
     </div>
   );
 }

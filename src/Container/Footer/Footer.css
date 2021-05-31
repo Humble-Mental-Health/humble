@@ -17,10 +17,6 @@ ul{
 	background-color: #13524a;
     padding: 70px 0;
 }
-.footer__col{
-   width: 33.3%;
-   padding: 0 15px;
-}
 .footer__col h4{
 	font-size: 1.2rem;
 	color: #ffffff;
@@ -29,7 +25,7 @@ ul{
 	font-weight: 500;
 	position: relative;
 }
-.footer__col h4::before{
+/* .footer__col h4::before{
 	content: '';
 	position: absolute;
 	left:0;
@@ -38,7 +34,7 @@ ul{
 	height: 2px;
 	box-sizing: border-box;
 	width: 50px;
-}
+} */
 .footer__col ul li:not(:last-child){
 	margin-bottom: 1rem;
 }
@@ -74,7 +70,7 @@ ul{
 }
 
 /*responsive*/
-@media(max-width: 767px){
+/* @media(max-width: 767px){
   .footer__col{
     width: 50%;
     margin-bottom: 30px;
@@ -85,6 +81,6 @@ ul{
     width: 100%;
 }
 }
-
+ */
 
 

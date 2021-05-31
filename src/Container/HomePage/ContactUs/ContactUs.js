@@ -4,6 +4,7 @@ import MailIcon from '@material-ui/icons/Mail';
 import Button from '../../../Components/Button/Button';
 import { db } from "../../../Config/firebase";
 import './ContactUs.css'
+import Fade from 'react-reveal/Fade';
 
 const ContactUs = () => {
 
@@ -28,7 +29,7 @@ const ContactUs = () => {
             alert("Your message has been submitted👍");
         })
         .catch((error) => {
-            alert(error.message);
+            alert("Fill up all the fields");
             setLoader(false);
         });
 
@@ -36,22 +37,23 @@ const ContactUs = () => {
         setEmail("");
         setMessage("");
     };
-
     return (
         <div className='contactUs'>
-            <div className="contactUs__left">
-                <h1>Contact Us</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quisquam voluptates blanditiis optio voluptatibus repudiandae modi, officiis amet tempore dolorem illum excepturi autem eligendi praesentium. Vero molestias architecto qui ducimus.</p>
-                <div className="contactUs__icon">
-                    <CallIcon style={{fill: "#13524a"}}/>
-                    <h6>+91 9999999999</h6>
+                <Fade bottom distance='200px' duration={1000}>
+                <div className="contactUs__left">
+                    <h1>Contact Us</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quisquam voluptates blanditiis optio voluptatibus repudiandae modi, officiis amet tempore dolorem illum excepturi autem eligendi praesentium. Vero molestias architecto qui ducimus.</p>
+                    <div className="contactUs__icon">
+                        <CallIcon style={{fill: "#13524a"}}/>
+                        <h6>+91 9999999999</h6>
+                    </div>
+                    <div className="contactUs__icon">
+                        <MailIcon style={{fill: "#13524a"}}/>
+                        <h6>humbleinfo@gmail.com</h6>
+                    </div>
                 </div>
-                <div className="contactUs__icon">
-                    <MailIcon style={{fill: "#13524a"}}/>
-                    <h6>humbleinfo@gmail.com</h6>
-                </div>
-            </div>
-
+            </Fade>
+            <Fade right distance='100px'duration={1000} delay={500}>
             <div className="contactUs__right">  
                 <form className="form" onSubmit={handleSubmit}>
                     <h4>Your Name</h4>
@@ -70,7 +72,7 @@ const ContactUs = () => {
                     </button>
                 </form>
             </div>
-            
+            </Fade>
         </div>
     )
 }
