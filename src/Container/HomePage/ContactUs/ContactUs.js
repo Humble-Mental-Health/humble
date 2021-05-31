@@ -3,7 +3,8 @@ import CallIcon from '@material-ui/icons/Call';
 import MailIcon from '@material-ui/icons/Mail';
 import Button from '../../../Components/Button/Button';
 import { db } from "../../../Config/firebase";
-import './ContactUs.css'
+import './ContactUs.css';
+import firebase from 'firebase';
 
 const ContactUs = () => {
 
@@ -22,6 +23,7 @@ const ContactUs = () => {
             name: name,
             email: email,
             message: message,
+            timestamp: firebase.firestore.FieldValue.serverTimestamp()
         })
         .then(() => {
             setLoader(false);
