@@ -30,7 +30,9 @@
     text-transform: uppercase;
     position: relative;
     list-style-type: none;
+    font-family: 'lato';
 }
+
 .footer-nav-link::before{
     content: '';
     position: absolute;

@@ -3,7 +3,7 @@
     height: 100vh;
     background-color: #416d48;
     padding: 0 100px;
-    font-family: 'lato';
+    font-family: 'Playfair Display';
     color: #fff;
 }
 .container{
@@ -52,7 +52,7 @@
         height: 50vh;
         background-color: #416d48;
         padding: 0 100px;
-        font-family: 'lato';
+        font-family: 'Playfair Display';
         color: #fff;
     }
     .container{
@@ -72,7 +72,7 @@
         height:85vh;
         background-color: #416d48;
         padding: 0 50px;
-        font-family: 'lato';
+        font-family: 'Playfair Display';
         color: #fff;
         padding-top: 50px;
     }

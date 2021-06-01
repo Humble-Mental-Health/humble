@@ -65,14 +65,14 @@ const ContactUs = () => {
             <Fade bottom distance='200px' duration={1000}>
                 <div className="contactUs__left">
                     <h1>Contact Us</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quisquam voluptates blanditiis optio voluptatibus repudiandae modi, officiis amet tempore dolorem illum excepturi autem eligendi praesentium. Vero molestias architecto qui ducimus.</p>
+                    <p>The world has gone through a pandemic of remorse in past few years. It's high time that we all take charge and start helping each other out. But in case, you need our help, do let us know, We are here for you! ALWAYS!</p>
                     <div className="contactUs__icon">
-                        <CallIcon style={{fill: "#13524a"}}/>
-                        <h6>+91 9999999999</h6>
+                        {/* <CallIcon style={{fill: "#13524a"}}/>
+                        <h6>+91 9999999999</h6> */}
                     </div>
                     <div className="contactUs__icon">
                         <MailIcon style={{fill: "#13524a"}}/>
-                        <h6>humbleinfo@gmail.com</h6>
+                        <h6>contacthumble12@gmail.com</h6>
                     </div>
                 </div>
             </Fade>

@@ -10,17 +10,17 @@ import Fade from 'react-reveal/Fade';
 
 function AboutUs() {
     return (
-        <div className='aboutus'>
+        <div className='aboutusHome'>
             <Fade bottom distance='50px'>
-                <div className="aboutus__head">
-                    <h1 className='aboutus__heading'>Welcome to Humble</h1>
-                    <p className='aboutus__para'>Humble is a startup based on mental-health and awareness. We took the initiative to make sure that everyone in this country openly expresses about their mental-health. We are here to remove the stigma associated with mental-health.</p>
+                <div className="aboutusHome">
+                    <h1 className='aboutusHome__heading'>Welcome to Humble</h1>
+                    <p className='aboutusHome__para'>Humble is a startup based on mental-health and awareness. We took the initiative to make sure that everyone in this country openly expresses about their mental-health. We are here to remove the stigma associated with mental-health.</p>
                 </div>
             </Fade>
-            <div className="aboutus__grid">
+            <div className="aboutusHome__grid">
 
                 <Fade left distance='200px' duration={1500}>
-                    <div className="aboutus__grid__elm1">
+                    <div className="aboutusHome__grid__elm1">
                         <Partial 
                             icons={dumbbell} 
                             orientation='right' 
@@ -30,7 +30,7 @@ function AboutUs() {
                 </Fade>
 
                 <Fade left distance='200px' duration={1500}>
-                    <div className="aboutus__grid__elm2">
+                    <div className="aboutusHome__grid__elm2">
                         <Partial 
                             icons={thumb} 
                             orientation='right'
@@ -40,7 +40,7 @@ function AboutUs() {
                 </Fade>
 
                 <Fade left distance='200px' duration={1500}>
-                    <div className="aboutus__grid__elm3">
+                    <div className="aboutusHome__grid__elm3">
                         <Partial 
                             icons={tick} 
                             orientation='left'
@@ -50,7 +50,7 @@ function AboutUs() {
                 </Fade>
                 <Fade right distance='200px' duration={1500}>
 
-                    <div className="aboutus__grid__elm4">
+                    <div className="aboutusHome__grid__elm4">
                         <Partial 
                             icons={skull} 
                             orientation='left'
@@ -60,7 +60,7 @@ function AboutUs() {
                 </Fade>
 
                 <Fade bottom distance='200px' duration={1500} delay={500}>
-                    <div className="aboutus__image">
+                    <div className="aboutusHome__image">
                         <img src={aboutUsImage} alt=""/>
                     </div>
                 </Fade>

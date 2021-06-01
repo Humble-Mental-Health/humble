@@ -36,9 +36,9 @@ function Banner() {
 
                         
                         <div className="banner__social">
-                            <a href="www.google.com"><img src={facebook} alt=""/></a>
-                            <a href="www.google.com"><img src={instagram} alt=""/></a>
-                            <a href="www.google.com"><img src={twitter} alt=""/></a>
+                            <a href="https://www.facebook.com/be.humble.1000469" target="_blank"><img src={facebook} alt=""/></a>
+                            <a href="https://www.instagram.com/thehumbleindia/" target="_blank"><img src={instagram} alt=""/></a>
+                            <a href="https://twitter.com/Thehumbleindia" target="_blank"><img src={twitter} alt=""/></a>
                         </div>
                     </div>
                 </Zoom>

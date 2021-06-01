@@ -17,9 +17,9 @@ const Footer = () => {
                 </div>
                 <div class="footer__col">
                     <div class="footer__social-links">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/be.humble.1000469" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/Thehumbleindia" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/thehumbleindia/" target="_blank"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
             </div>
