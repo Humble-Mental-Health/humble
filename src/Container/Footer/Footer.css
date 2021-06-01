@@ -116,25 +116,31 @@
 @media only screen and (max-width:450px){
     .footer-new img{
         width: 200px;
+        top: 20%;
+    }
+    .footer__social-links{
+        width: 70%;
     }
     .footer-nav-container{
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
-        width: 320px;
-        top: 45%;
+        width: auto;
+        top: 38%;
+        height: 120px;
     }
     .footer-nav-link{
         font-size: 13px;
         display: flex;
         flex-direction: column;
         text-align: center;
-
     }
-
+    .footer-nav-link li{
+        padding-top: 10px;
+    }
     .footer-nav-link > li {
         font-size: 1rem; 
-        padding: 5px 0;   
+        padding: 10px 0;   
     }
 
 } 

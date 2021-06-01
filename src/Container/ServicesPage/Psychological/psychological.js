@@ -2,7 +2,7 @@ import React from 'react'
 import './psychological.css'
 import Fade from 'react-reveal/Fade';
 import Zoom from 'react-reveal/Zoom';
-
+import img1 from '../../../assets/therapy1-01.png'
 const psychological = () => {
     return (
             <div className='psychological'>

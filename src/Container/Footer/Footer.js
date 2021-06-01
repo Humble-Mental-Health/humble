@@ -1,6 +1,7 @@
 import React from 'react'
 import './Footer.css'
 import HumbleLogo from '../../assets/Humble-logo.png'
+import {NavLink} from 'react-router-dom'
 
 const Footer = () => {
     return (
@@ -9,10 +10,10 @@ const Footer = () => {
             <div className='footer-content'>
                 <div className='footer-nav-container'>
                     <ul className='footer-nav-link'>
-                        <li><a href='#'>About Us</a></li>
-                        <li><a href='#'>Our Services</a></li>
-                        <li><a href='#'>Contact Us</a></li>
-                        <li><a href='#'>Team</a></li>
+                    <NavLink style={{textDecoration: 'none'}} to='/aboutus'><li>About</li></NavLink>
+                    <NavLink style={{textDecoration: 'none'}} to='/services'><li>Services</li></NavLink>
+                    <NavLink style={{textDecoration: 'none'}} to='/founders'><li>Founders</li></NavLink>
+                    <NavLink style={{textDecoration: 'none'}} to='/contactus'><li>Contact</li></NavLink>
                     </ul>
                 </div>
                 <div class="footer__col">
