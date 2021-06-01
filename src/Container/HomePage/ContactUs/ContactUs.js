@@ -6,6 +6,9 @@ import { db } from "../../../Config/firebase";
 import './ContactUs.css';
 import Fade from 'react-reveal/Fade';
 import firebase from 'firebase';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import Loader from '../../../Components/Loader/Loader';
 
 const ContactUs = () => {
 
@@ -17,6 +20,9 @@ const ContactUs = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
+        if(name === '' || email === '' || message === ''){
+           return toast.error('Fill up all the fields');
+        }
         setLoader(true);
 
         db.collection("contacts")
@@ -28,11 +34,11 @@ const ContactUs = () => {
         })
         .then(() => {
             setLoader(false);
-            alert("Your message has been submitted👍");
+            toast.success("Your response has been submitted");
         })
         .catch((error) => {
-            alert("Fill up all the fields");
             setLoader(false);
+            toast.error("We encountered some error while processing your request");
         });
 
         setName("");
@@ -42,6 +48,20 @@ const ContactUs = () => {
 
     return (
         <div className='contactUs'>
+            <ToastContainer
+                position="top-center"
+                autoClose={5000}
+                hideProgressBar={false}
+                newestOnTop={false}
+                closeOnClick
+                rtl={false}
+                pauseOnFocusLoss
+                draggable
+                pauseOnHover
+            />
+            {
+                loader?<Loader />:null
+            }
             <Fade bottom distance='200px' duration={1000}>
                 <div className="contactUs__left">
                     <h1>Contact Us</h1>

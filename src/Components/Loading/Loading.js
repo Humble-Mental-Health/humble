@@ -1,6 +1,5 @@
 import React from 'react'
 import './Loading.css'
-import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
 import BounceLoader from "react-spinners/BounceLoader";
 
 const Loading = () => {
