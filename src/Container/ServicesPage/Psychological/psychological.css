@@ -5,25 +5,40 @@
     overflow: hidden;
     font-family: 'lato';
 }
-.btn, .btn:active, .btn:visited{
+/* .btn, .btn:active, .btn:visited{
     text-decoration: none;
     color: white;
     padding: 12px 50px;
     border-radius: 5px;
     font-size: 20px;
     cursor: pointer;
+} */
+
+.btn-start{
+    background-color: #13524a;
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-decoration: none;
+    display: inline-block;
 }
-.btn-green:hover{
-    background-color:rgb(56, 85, 82);
+
+
+.btn-start:hover{
+    transform: translateY(-5px);
 }
-.btn-green{
-    background-color: rgb(77, 117, 113);
-    transition: all 0.5s;
+
+.btn-start:active{
+    transform: translateY(0);
 }
+
 .psycho-text{
     width: 100%;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 70px;
 }
 .psycho-paraContainer{
     width: 550px;
@@ -62,7 +77,34 @@
     height: 100%;
 }
 
+@media only screen and (max-width:1050px){
+    .psychological{
+        width: 100%;
+        height: 60vh;
+        background-color: #ffeeed;
+        overflow: hidden;
+        font-family: 'lato';
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .psychological{
+        width: 100%;
+        height: 75vh;
+        background-color: #ffeeed;
+        overflow: hidden;
+        font-family: 'lato';
+    }
+}
+
 @media only screen and (max-width:700px){
+    .psychological{
+        width: 100%;
+        height: 100vh;
+        background-color: #ffeeed;
+        overflow: hidden;
+        font-family: 'lato';
+    }
     .psycho-heading{
         font-size: 38px;
         font-weight: 600;

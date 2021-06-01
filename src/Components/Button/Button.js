@@ -1,10 +1,17 @@
 import React from 'react'
 import './Button.css'
 
-function Button({title}) {
+function Button({onClick, title}) {
+
+    console.log(onClick)
     return (
         <div>
-            <button>{title}</button>
+            {onClick ? (
+                <button onclick={onClick}>{title}</button>
+            ): (
+                <button>{title}</button>
+            )}
+            
         </div>
     )
 }

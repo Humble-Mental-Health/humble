@@ -5,6 +5,9 @@
     display:flex;
     align-items: center;
     justify-content: space-around;
+    position: fixed;
+    top: 0;
+    z-index: 9999
 }
 .nav img{
     width: 120px;
@@ -15,6 +18,7 @@
     width: 500px;
     color: #fff;
     transition: all 0.5s ease-in;
+    list-style-type: none;
 }
 .nav li{
     position: relative;
@@ -52,6 +56,10 @@
     cursor: pointer;
 }
 
+.nav li > a:focus{
+    outline: none;
+}
+
 @media only screen and (max-width:800px){
     .nav ul{
         width: 420px;
@@ -63,7 +71,7 @@
 
 @media only screen and (max-width:600px){
     .nav ul{
-        display: block;
+        display: inline-block;
         background-color: #13524a;
         height: 100%;
         position: fixed;
@@ -71,9 +79,9 @@
         left: 0;
         width: 50%;
         box-shadow: 0 0 10px rgba(0,0,0,0.3);
-        transform: translateX(0px);
         padding: 30px 50px;
         transform: translateX(-500px);
+        animation: none !important;
         transition: all 0.4s ease-in;
     }
     .nav li{

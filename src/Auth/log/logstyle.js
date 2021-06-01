@@ -2,7 +2,7 @@ import React from 'react'
 import './log.css'
 
 function Logstyle(props) {
-    const { email, setEmail, password, setPassword, handleLogin, handleSignup, hasAccount, setHasAccount, emailError, passwordError } = props;
+    const { email, setEmail, password, setPassword, handleLogin, hasAccount, setHasAccount, emailError, passwordError } = props;
     return (
         <section className = 'login'>
             <div className="loginContainer">
@@ -24,17 +24,16 @@ function Logstyle(props) {
                 />
                 <p className='errorMsg'>{passwordError}</p>
                 <div className='btnContainer'>
-                    {hasAccount ? (
-                        <>
+                    {/* {hasAccount ? (
+                        <> */}
                             <button onClick={handleLogin}>Sign in</button>
-                            <p>Don't have an account ? <span onClick={() => setHasAccount(!hasAccount)}>Sign up</span></p>
-                        </>
+                        {/* </>
                     ) : (
                         <>
                             <button onClick={handleSignup}>Sign up</button>
                             <p>Have an account ? <span onClick={() => setHasAccount(!hasAccount)}   >Sign in</span></p>
                         </>
-                    )}
+                    )} */}
                 </div>
             </div>
         </section>

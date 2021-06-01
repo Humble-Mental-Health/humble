@@ -62,7 +62,7 @@
 
 .contactUs__right > .form > button {
     font-family: 'Lato';
-    padding: 8px 25Spx;
+    padding: 8px 25px;
     border: none;
     background-color: white;
     font-weight: 500;
@@ -74,7 +74,9 @@
     margin-top: 10px;
 }
   
-
+.contactUs__right input:focus, textarea:focus{
+    outline: none !important;
+}
 
 @media screen and (min-width: 960px){
     .contactUs {

@@ -7,6 +7,7 @@
 }
 
 .founder__head {
+    margin-top: 8rem;
     font-size: 5rem;
 }
 
@@ -70,7 +71,7 @@
 
 @media only screen and (max-width:600px){ 
     .founder__head {
-        font-size: 2.5rem;
+        font-size: 2.7rem;
     }
 
     .founder__para {

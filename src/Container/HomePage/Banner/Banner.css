@@ -1,6 +1,6 @@
 .banner {
     background-color: #13524a;
-    padding: 20px 20px;
+    padding:40px 20px;
     margin-bottom: 1.5rem;
     width:100%;
     margin: 0 auto;
@@ -47,10 +47,21 @@
     justify-content: center;
 }
 
-.banner__social > img {
+.banner__social > a > img {
     padding: 10px 4px;
+    transition: all 0.3s
 }
 
+.banner__social > a > img:hover{
+    transform: scale(1.2) rotate(8deg)
+}
+
+.banner__social > a{
+    width: 12%; 
+ }
+ .banner__social > a > img {
+    width: 100%;
+ }
 
   
   /* large tablet & laptop styles */
@@ -98,6 +109,12 @@
         display: flex;
         justify-content: left;
     }
+    .banner__social > a{
+        width: 12%; 
+     }
+     .banner__social > a > img {
+         width: 100%;
+     }
     
 }
 
@@ -146,6 +163,13 @@
     .banner__social {
         display: flex;
         justify-content: left;
+    }
+
+    .banner__social > a{
+       width: 8%; 
+    }
+    .banner__social > a > img {
+        width: 100%;
     }
     
     

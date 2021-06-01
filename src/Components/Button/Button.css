@@ -7,6 +7,13 @@ button {
     cursor: pointer;
     font-weight: bold;
     color: #13524a;
+    transition: all 0.3s
+}
+button:hover{
+    transform: translateY(-5px);
+}
+button:active{
+    transform: translateY(0px);
 }
 
 @media screen and (min-width: 960px){

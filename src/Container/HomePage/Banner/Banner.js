@@ -6,33 +6,42 @@ import facebook from '../../../assets/facebook.png'
 import instagram from '../../../assets/instagram.png'
 import linkedin from '../../../assets/linkedin.png'
 import twitter from '../../../assets/twitter.png'
+import Fade from 'react-reveal/Fade';
+import Zoom from 'react-reveal/Zoom';
 
 
 function Banner() {
     return (
         <div className='banner'>
             <div className="banner__grid">
-                <div className="banner__img">
-                    <img src={banner} alt=""/>
-                </div>
-
-                <div className="banner__text">
-                    <h1>REJUVENATE</h1>
-                    <h1>REVITALISE</h1>
-                    <h1>FIND YOURSELF</h1>
-                    <p>From career counselling to relationship counselling, we help you solve your life problems.</p>
-                    <div className="banner__text__button">
-                        <Button title='Join our Community' />
+                <Fade bottom delay={1000} distance='100px'>
+                    <div className="banner__img">
+                        <img src={banner} alt=""/>
                     </div>
+                </Fade>
 
-                    
-                    <div className="banner__social">
-                        <img src={facebook} alt=""/>
-                        <img src={instagram} alt=""/>
-                        <img src={linkedin} alt=""/>
-                        <img src={twitter} alt=""/>
+                <Zoom delay={1500}>
+                    <div className="banner__text">
+                        <h1>REJUVENATE</h1>
+                        <h1>REVITALISE</h1>
+                        <h1>FIND YOURSELF</h1>
+                        <p>From career counselling to relationship counselling, we help you solve your life problems.</p>
+                        <div className="banner__text__button">
+                        <a href="https://discord.gg/59gn9tW98n" target="_blank">
+                            <Button title='Join our Community' />
+                        </a>
+                            {/* <button onclick="window.location.href='http://www.google.com'">Join our Community</button> */}
+                        </div>
+
+
+                        
+                        <div className="banner__social">
+                            <a href="www.google.com"><img src={facebook} alt=""/></a>
+                            <a href="www.google.com"><img src={instagram} alt=""/></a>
+                            <a href="www.google.com"><img src={twitter} alt=""/></a>
+                        </div>
                     </div>
-                </div>
+                </Zoom>
             </div>
            
         </div>

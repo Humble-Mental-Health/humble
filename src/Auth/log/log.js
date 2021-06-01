@@ -39,22 +39,22 @@ const Log = () => {
             })
     }
     
-    const handleSignup = () => {
-        clearErrors();
-        auth
-            .createUserWithEmailAndPassword(email, password)
-            .catch((err) => {
-                switch(err.code){
-                    case "auth/email-already-in-use":
-                        case "auth/invalid-email":
-                            setEmailError(err.message);
-                            break;
-                        case "auth/weak-password":
-                            setPasswordError(err.message);
-                            break;
-                }
-            })
-    }
+    // const handleSignup = () => {
+    //     clearErrors();
+    //     auth
+    //         .createUserWithEmailAndPassword(email, password)
+    //         .catch((err) => {
+    //             switch(err.code){
+    //                 case "auth/email-already-in-use":
+    //                     case "auth/invalid-email":
+    //                         setEmailError(err.message);
+    //                         break;
+    //                     case "auth/weak-password":
+    //                         setPasswordError(err.message);
+    //                         break;
+    //             }
+    //         })
+    // }
 
     const handleLogout = () => {
         auth.signOut();
@@ -89,7 +89,7 @@ const Log = () => {
                 password = {password}
                 setPassword = {setPassword}
                 handleLogin = {handleLogin}
-                handleSignup = {handleSignup}
+                // handleSignup = {handleSignup}
                 hasAccount = {hasAccount}
                 setHasAccount = {setHasAccount}
                 emailError = {emailError}
