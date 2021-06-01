@@ -7,7 +7,8 @@ button {
     cursor: pointer;
     font-weight: bold;
     color: #13524a;
-    transition: all 0.3s
+    transition: all 0.3s;
+    font-family: 'Playfair Display';
 }
 button:hover{
     transform: translateY(-5px);

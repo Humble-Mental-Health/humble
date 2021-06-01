@@ -63,7 +63,15 @@
     width: 100%;
  }
 
-  
+ @media screen and (min-width: 500px){
+    .banner__social > a{
+        width: 8%; 
+     }
+     .banner__social > a > img {
+        width: 100%;
+     } 
+ }  
+
   /* large tablet & laptop styles */
 @media screen and (min-width: 960px){
     .banner__grid {

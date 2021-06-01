@@ -20,14 +20,12 @@
     transform: translateY(-8px) scale(1.03);
   }
   .card_heading {
-    font-family: "Lato", sans-serif;
     font-size: 1.5rem;
     color: #186e63;
     padding-top: 20px;
     padding-bottom: 20px;
   }
   .card_text {
-    font-family: "Lato", sans-serif;
     color: #000;
     font-size: 1.1rem;
     padding-bottom: 10px;
@@ -56,14 +54,12 @@
     transform: translateY(-8px) scale(1.03);
   }
   .card_heading {
-    font-family: "Lato", sans-serif;
     font-size: 1.5rem;
     color: #186e63;
     padding-top: 20px;
     padding-bottom: 20px;
   }
   .card_text {
-    font-family: "Lato", sans-serif;
     color: #000;
     font-size: 1rem;
     padding-bottom: 10px;
@@ -91,14 +87,12 @@
     transform: translateY(-8px) scale(1.03);
   }
   .card_heading {
-    font-family: "Lato", sans-serif;
     font-size: 1.5rem;
     color: #186e63;
     padding-top: 20px;
     padding-bottom: 20px;
   }
   .card_text {
-    font-family: "Lato", sans-serif;
     color: #000;
     font-size: 1rem;
     padding-bottom: 10px;
@@ -126,14 +120,12 @@
     transform: translateY(-8px) scale(1.03);
   }
   .card_heading {
-    font-family: "Lato", sans-serif;
     font-size: 1.5rem;
     color: #186e63;
     padding-top: 20px;
     padding-bottom: 20px;
   }
   .card_text {
-    font-family: "Lato", sans-serif;
     color: #000;
     font-size: 1rem;
     padding-bottom: 10px;
